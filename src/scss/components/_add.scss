@@ -287,8 +287,11 @@ a{text-decoration:none;}
 }
 .div1,
 .div2 {
-  top: 92px;
+
   height: 65.5px;
+}
+.div2 {
+  top: 20px;
 }
 .div1 {
   top: -70px;
@@ -345,8 +348,7 @@ a{text-decoration:none;}
   width: 156px;
   height: 16px;
 }
-.div4,
-.live-and-coming {
+.div4 {
   position: absolute;
   top: 246px;
   left: 149px;
@@ -354,14 +356,16 @@ a{text-decoration:none;}
   height: 685px;
   font-size: var(--font-size-29xl);
 }
+
+
+
 .live-and-coming {
-  top: 0;
-  left: 45px;
+
+  margin-left: 45px;
   font-size: var(--font-size-16xl);
   display: flex;
   color: var(--color-gray-200);
   align-items: center;
-  width: 779px;
   height: 50px;
 }
 .child2 {
@@ -1185,18 +1189,7 @@ a{text-decoration:none;}
   overflow: hidden;
   max-height: 100%;
 }
-.union-child12,
-.union-child13 {
-  position: absolute;
-  top: 44.09px;
-  left: 1756.59px;
-  border-radius: var(--br-11xs);
-  background-color: var(--color-gainsboro);
-  width: 2px;
-  height: 10px;
-  transform: rotate(-45deg);
-  transform-origin: 0 0;
-}
+
 .union-child13 {
   top: 42.59px;
   left: 1769.28px;
@@ -1204,9 +1197,15 @@ a{text-decoration:none;}
 }
 .union7 {
   position: relative;
-  background-color: var(--color-white);
   width: 13.28px;
   height: 7.74px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  svg{
+    display: block;
+  }
 }
 .div14,
 .news1 {

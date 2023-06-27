@@ -1,0 +1,11 @@
+.header{
+  position: fixed;
+  z-index: 3;
+}
+.div1-wrapper{
+  height: 85px;
+  width: 100%;
+  background-color: var(--color-gray-100);
+  position: fixed;
+  z-index: 1;
+}

@@ -1,1 +1,42 @@
 /*1 Первый экран*/
+.div1, .div4{
+  z-index: 2;
+}
+
+
+.mySwiper {
+  width: 100%;
+  height: 100%;
+  height: 1000px;
+  position: relative;
+
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+  opacity: 1;
+  width: 12px;
+  height: 12px;
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active{
+  background: #fff;
+  width: 16px;
+  height: 16px;
+}
+
+.swiper-pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction{
+  bottom: 69px;
+  transform: translateX(5px);
+}

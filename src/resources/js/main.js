@@ -1,0 +1,17 @@
+var swiper = new Swiper(".mySwiper", {
+
+  loop: true,
+
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});
+
+var swiper = new Swiper(".mySwiper2", {
+  slidesPerView: 3,
+  //spaceBetween: 35,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
