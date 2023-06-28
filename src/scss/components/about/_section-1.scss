@@ -1,0 +1,51 @@
+.section{
+  width: 1348px;
+  padding-top: 60px;
+  color: #000;
+  margin: 0 auto;
+  p{
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+}
+.title{
+  padding-bottom: 44px;
+  text-align: center;
+  /*margin-bottom: 30px;*/
+  color: #1B1F2A;
+text-align: center;
+font-size: 48px;
+}
+.padding-top{
+
+  padding-top: 85px;
+}
+
+.about .flex-container{
+  font-size: 18px;
+  margin-top: 60px;
+
+}
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-item{
+  width: 100%;
+  max-width: 308px;
+  height: 254px;
+}
+
+.sed-diam{
+  position: relative;
+  height: 478px;
+  &::before{
+    background: #D9D9D9;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+  }
+
+}
