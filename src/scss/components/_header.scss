@@ -1,6 +1,24 @@
 .header{
   position: fixed;
   z-index: 3;
+  width: 100%;
+  display: flex;
+  max-width: 1440px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.div2 {
+  display: flex;
+  width: 100%;
+  max-width: 1920px;
+  justify-content: space-between;
+  position: relative;
+  padding-right: 300px;
+  align-items: center;
 }
 .div1-wrapper{
   height: 85px;
