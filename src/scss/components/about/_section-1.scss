@@ -126,11 +126,17 @@ position: relative;
   margin-bottom: 60px;
 }
 
-.div21{
+.delite .div21{
   position: relative;
   top: inherit;
 
 }
-.div{
+.div.delite{
   height: inherit;
+}
+
+/**===============*/
+.section--big{
+  max-width: 1623px;
+  width: 100%;
 }
