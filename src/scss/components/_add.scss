@@ -866,10 +866,16 @@ a{text-decoration:none;}
   top: 299px;
   left: 647px;
   border-radius: 50%;
-  border: 2px solid var(--color-sandybrown);
+ // border: 2px solid var(--color-sandybrown);
   box-sizing: border-box;
   width: 625px;
   height: 625px;
+  background: url(../img/svg/icon4.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 98%;
+
+  transform: scale(1.04) translateX(-1px);
 }
 .union-child2 {
   position: absolute;
@@ -880,8 +886,7 @@ a{text-decoration:none;}
   transform: rotate(-161.07deg);
 }
 .union-child2,
-.union-child3,
-.union2 {
+.union-child3{
   width: 2px;
   height: 14px;
   transform-origin: 0 0;
@@ -894,11 +899,7 @@ a{text-decoration:none;}
   background-color: var(--color-dodgerblue);
   transform: rotate(-71.07deg);
 }
-.union2 {
-  position: relative;
-  background-color: var(--color-sandybrown);
-  transform: rotate(-161.07deg);
-}
+
 .union-child4 {
   position: absolute;
   top: 3703.08px;
@@ -909,8 +910,7 @@ a{text-decoration:none;}
   transform: rotate(-79.46deg);
 }
 .union-child4,
-.union-child5,
-.union3 {
+.union-child5 {
   height: 14px;
   transform-origin: 0 0;
 }
@@ -923,12 +923,7 @@ a{text-decoration:none;}
   width: 2px;
   transform: rotate(10.54deg);
 }
-.union3 {
-  position: relative;
-  background-color: var(--color-sandybrown);
-  width: 14px;
-  transform: rotate(-79.46deg);
-}
+
 .union-child6 {
   position: absolute;
   top: 4030.18px;
@@ -939,8 +934,7 @@ a{text-decoration:none;}
   transform: rotate(-13.58deg);
 }
 .union-child6,
-.union-child7,
-.union4 {
+.union-child7 {
   height: 14px;
   transform-origin: 0 0;
 }
@@ -953,12 +947,7 @@ a{text-decoration:none;}
   width: 2px;
   transform: rotate(76.42deg);
 }
-.union4 {
-  position: relative;
-  background-color: var(--color-sandybrown);
-  width: 14px;
-  transform: rotate(-13.58deg);
-}
+
 .union-child8 {
   position: absolute;
   top: 4160px;
@@ -969,8 +958,7 @@ a{text-decoration:none;}
   transform: rotate(62.27deg);
 }
 .union-child8,
-.union-child9,
-.union5 {
+.union-child9 {
   height: 14px;
   transform-origin: 0 0;
 }
@@ -983,12 +971,7 @@ a{text-decoration:none;}
   width: 2px;
   transform: rotate(152.27deg);
 }
-.union5 {
-  position: relative;
-  background-color: var(--color-sandybrown);
-  width: 14px;
-  transform: rotate(62.27deg);
-}
+
 .union-child10 {
   position: absolute;
   top: 3864.22px;

@@ -9,6 +9,9 @@ var swiper = new Swiper(".mySwiper", {
 
 var swiper = new Swiper(".mySwiper2", {
   slidesPerView: 3,
+  loop: true,
+  freeMode: true,
+  freeModeMomentum: false,
   //spaceBetween: 35,
   navigation: {
     nextEl: ".swiper-button-next",
