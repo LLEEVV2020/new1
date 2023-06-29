@@ -2103,8 +2103,8 @@ a {
 }
 
 .our-platform-enables {
-  width: 62.24%;
-  top: 50.4%;
+  // width: 62.24%;
+  // top: 50.4%;
   font-size: var(--font-size-lg);
   color: var(--color-dimgray);
 }
@@ -2458,6 +2458,10 @@ a {
 }
 
 @media screen and (max-width: 991.98px) {
+  .grid {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
   .live-and-coming {
     margin-left: 0;
     padding-left: 15px;
@@ -2530,9 +2534,10 @@ a {
 
   .p-doma-na-bali-foto-3-2-icon,
   .screenshot-2023-01-05-162335-6 {
-    left: 400px;
-    width: 100%;
+    left: auto;
+    width: 50%;
     height: 277px;
+    right: 15px;
   }
 
   .polygon-icon {
@@ -2547,26 +2552,28 @@ a {
   .div27,
   .div28 {
     grid-column: span 3;
+    padding: 40px 10px;
   }
 
   .div22 {
-    height: 1380px;
+    height: 1050px;
   }
 
   .div8 {
-    top: 3900px;
+    top: 3553px;
+    height: 990px;
   }
   .all-news, .child21 {
     top: 1400px;
   }
 
   .div15 {
-    top: 4962px;
-    height: 1430px;
+    top: 4600px;
+    height: 1492px;
   }
 
   .div {
-    height: 7200px;
+    height: 6845px;
   }
 
   .div21 {
@@ -2575,7 +2582,7 @@ a {
   }
 
   .div20 {
-    top: calc(50% + 2854px);
+    top: calc(50% + 2677px);
   }
 
   .after-the-sale,
