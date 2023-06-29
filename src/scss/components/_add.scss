@@ -438,6 +438,7 @@ a {
   left: 653px;
   width: 827px;
   height: 1px;
+  z-index: 3;
 }
 
 .screenshot-2023-01-05-162335-1-icon {
@@ -2315,6 +2316,9 @@ a {
 }
 
 @media screen and (max-width: 1440.98px) {
+  .child2 {
+    width: 715px;
+  }
   .header {
     padding: 0 20px;
   }
@@ -2364,6 +2368,9 @@ a {
 }
 
 @media screen and (max-width: 1366.98px) {
+  .child2 {
+    width: 640px;
+  }
   .our-100-point-tool {
     left: 150px;
   }
@@ -2385,6 +2392,9 @@ a {
 }
 
 @media screen and (max-width: 1280.98px) {
+  .child2 {
+   width: 552px;
+  }
 
   .div4 .the-smartest1,
   .div4 .the-smartest {
@@ -2436,8 +2446,28 @@ a {
     width: 300px;
   }
 }
+@media screen and (max-width: 1181.98px) {
+  .child2 {
+    width: 470px;
+  }
+}
+@media screen and (max-width: 1024.98px) {
+  .child2 {
+    width: 310px;
+}
+}
 
 @media screen and (max-width: 991.98px) {
+  .live-and-coming {
+    margin-left: 0;
+  }
+  .child2 {
+    left: 605px;
+    width: 200px;
+  }
+  .div5 .swiper-horizontal {
+    padding: 0 !important;
+  }
   .div4 {
     left: 20px;
     width: 300px;
