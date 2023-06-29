@@ -2460,6 +2460,7 @@ a {
 @media screen and (max-width: 991.98px) {
   .live-and-coming {
     margin-left: 0;
+    padding-left: 15px;
   }
   .child2 {
     left: 605px;
@@ -2467,6 +2468,9 @@ a {
   }
   .div5 .swiper-horizontal {
     padding: 0 !important;
+  }
+  .div5 {
+    padding: 0;
   }
   .div4 {
     left: 20px;
