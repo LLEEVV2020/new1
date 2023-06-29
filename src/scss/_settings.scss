@@ -29,6 +29,7 @@ img {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 
@@ -80,6 +81,8 @@ a {
   margin: 0 auto;
   padding: 0 var(--container-offset);
   max-width: var(--container-width);
+  width: 100%;
+  max-width: 1621px;
 }
 
 .js-focus-visible :focus:not(.focus-visible) {
@@ -102,4 +105,11 @@ a {
 
 .page--ios .dis-scroll {
   position: relative;
+}
+
+.btn-search{
+  width: 20px;
+  height: 21px;
+  background-image: url(../img/search.svg);
+  display: block;
 }
