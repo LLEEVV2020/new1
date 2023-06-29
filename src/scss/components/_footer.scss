@@ -1,0 +1,52 @@
+.footer{
+
+  .copyright-2023-all, .privacy-policy, .user-agreement {
+    position: absolute;
+    height: 11.43%;
+    width: 16.46%;
+    top: 83.93%;
+    left: 7.76%;
+    display: inline-block;
+}
+
+.privacy-policy, .user-agreement {
+  width: 6.72%;
+  left: 43.23%;
+  color: var(--color-dodgerblue);
+}
+.user-agreement {
+  left: 61.67%;
+}
+
+.child25, .to-the-top {
+  position: absolute;
+  left: 1541px;
+}
+
+.to-the-top {
+  top: 236px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-gray-200);
+  text-align: center;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  width: 128px;
+  height: 25px;
+}
+
+.child25 {
+  top: 229px;
+  background-color: var(--color-dodgerblue);
+  width: 163px;
+  height: 38px;
+}
+
+.sign-up1, .home{
+  margin-bottom: 8px;
+  display: block;
+}
+
+}
