@@ -8,12 +8,28 @@
   top: 0;
   height: 86px;
   border-bottom: 1px solid #717171;
-
+  &::before{
+    content: "";
+    background-color: var(--color-gray-100);
+    width: 50%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    position: absolute;
+  }
   .container{
     display: flex;
 
     align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
   }
+  .btn-search{
+    transform: translateY(2px);
+  }
+
+
 }
 .logo{
   width: 130px;
@@ -21,20 +37,24 @@
   background-image: url(../img/@2x.webp);
   display: block;
   background-size: cover;
+  margin-right: 44px;
 }
 .active-link{
   color: #0098FF;
 }
 
+.header__menu{
+  margin-right: 44px;
+}
 .header__menu ul{
   display: flex;
-
+  gap: 44px;
 }
 
 .authoriz{
   display: flex;
   align-items: center;
-
+  margin-right: 40px;
 }
 .authoriz__sign-up,
 .authoriz__login{
@@ -46,6 +66,9 @@
   font-weight: 600;
   border-radius: 4px;
   font-size: 14px;
+  &:hover{
+    opacity: .875;
+  }
 }
 
 .authoriz__sign-up{
@@ -75,12 +98,7 @@
 }
 
 /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  width: 140px;
-}
+
 
 .dropbtn {
   display: flex;
@@ -111,19 +129,51 @@
 
 
 /* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 2px 0 2px 25px;
-  text-decoration: none;
-  display: block;
+.dropdown-content{
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 26px;
+  padding-top: 10px;
+
+  a {
+    color: black;
+
+    & + a{
+      margin-top: 10px;
+    }
+    text-decoration: none;
+    display: block;
+    img{
+      display: block;
+    }
+  }
+
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+//.dropdown-content a:hover {background-color: #f1f1f1}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: flex;
+
+  a:hover{
+    opacity: .7;
+  }
+}
+
+.header-right{
+  display: flex;
+  align-items: center;
+}
+.header-left{
+  display: flex;
+  align-items: center;
 }
 
 
