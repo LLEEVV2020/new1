@@ -38,6 +38,9 @@
   display: block;
   background-size: cover;
   margin-right: 44px;
+  @media screen and (max-width:1520px){
+    margin-right: 30px;
+  }
 }
 .active-link{
   color: #0098FF;
@@ -45,16 +48,43 @@
 
 .header__menu{
   margin-right: 44px;
+  @media screen and (max-width:1520px){
+    margin-right: 30px;
+  }
 }
-.header__menu ul{
+.header__menu {
   display: flex;
   gap: 44px;
+  @media screen and (max-width:1520px){
+    gap: 30px;
+  }
+  a{
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 30px;
+      width: 100%;
+      border-bottom: 5px solid #0098ff;
+
+      transform: translateY(33px);
+      opacity: 0;
+    }
+    &:hover::before {
+      opacity: 1;
+    }
+  }
+
+
 }
 
 .authoriz{
   display: flex;
   align-items: center;
   margin-right: 40px;
+
 }
 .authoriz__sign-up,
 .authoriz__login{
