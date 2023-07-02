@@ -30,3 +30,23 @@ var swiper = new Swiper(".mySwiper2", {
     },
   }
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+
+  document.querySelector('.mobile-menu').addEventListener('click', function(e){
+    e.preventDefault();
+
+    let menu_btn = document.querySelector('.menu-btn') // Using a class instead, see note below.
+
+    menu_btn.classList.toggle('menu-custom');
+    menu_btn.classList.toggle('menu-active');
+
+    let main_nav = document.querySelector('.header__menu') // Using a class instead, see note below.
+    main_nav.classList.toggle('menu-custom');
+    main_nav.classList.toggle('menu-active');
+
+  });
+
+
+});

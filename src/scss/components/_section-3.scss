@@ -2,3 +2,22 @@
 .union-icon-ml{
   margin-right: 10px;
 }
+
+.soonp-roperties{
+  margin-bottom: 60px;
+}
+
+.estatuium-block{
+  position: relative;
+  top: 0;
+}
+
+/*block-video - блок с видео*/
+.block-video{
+  .ellipse-div{
+    background-image: url(../img/ellipse-div.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}

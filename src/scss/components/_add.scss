@@ -429,7 +429,7 @@ a {
   display: flex;
   color: var(--color-gray-200);
   align-items: center;
-  height: 50px;
+  min-height: 50px;
 }
 
 .child2 {
